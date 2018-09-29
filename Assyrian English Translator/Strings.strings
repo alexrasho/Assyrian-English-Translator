@@ -1,0 +1,13 @@
+/* 
+  Strings.strings
+  Assyrian English Translator
+
+  Created by Alex Rasho on 2/17/18.
+  Copyright © 2018 RashoWare. All rights reserved.
+*/
+
+Apple.e = "Apple"
+Apple.a = "khaboosha"
+Apple.p = "kha-bu-sha"
+Apple.ww = "ܚܰܒܽܘܫܳܐ"
+Apple.ew = "ܚܲܒܘܼܫܵܐ"

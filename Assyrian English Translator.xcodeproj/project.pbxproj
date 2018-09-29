@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59FBF4FD20368AF3004860FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF4FC20368AF3004860FB /* AppDelegate.swift */; };
+		59FBF4FF20368AF3004860FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF4FE20368AF3004860FB /* ViewController.swift */; };
+		59FBF50220368AF3004860FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FBF50020368AF3004860FB /* Main.storyboard */; };
+		59FBF50420368AF3004860FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59FBF50320368AF3004860FB /* Assets.xcassets */; };
+		59FBF50720368AF3004860FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59FBF50520368AF3004860FB /* LaunchScreen.storyboard */; };
+		59FBF51220368AF3004860FB /* Assyrian_English_TranslatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF51120368AF3004860FB /* Assyrian_English_TranslatorTests.swift */; };
+		59FBF51D20368AF3004860FB /* Assyrian_English_TranslatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59FBF51C20368AF3004860FB /* Assyrian_English_TranslatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59FBF50E20368AF3004860FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59FBF4F120368AF3004860FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59FBF4F820368AF3004860FB;
+			remoteInfo = "Assyrian English Translator";
+		};
+		59FBF51920368AF3004860FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59FBF4F120368AF3004860FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59FBF4F820368AF3004860FB;
+			remoteInfo = "Assyrian English Translator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59FBF4F920368AF3004860FB /* Assyrian English Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assyrian English Translator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FBF4FC20368AF3004860FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59FBF4FE20368AF3004860FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59FBF50120368AF3004860FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59FBF50320368AF3004860FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59FBF50620368AF3004860FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59FBF50820368AF3004860FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59FBF50D20368AF3004860FB /* Assyrian English TranslatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assyrian English TranslatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FBF51120368AF3004860FB /* Assyrian_English_TranslatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assyrian_English_TranslatorTests.swift; sourceTree = "<group>"; };
+		59FBF51320368AF3004860FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59FBF51820368AF3004860FB /* Assyrian English TranslatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assyrian English TranslatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59FBF51C20368AF3004860FB /* Assyrian_English_TranslatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assyrian_English_TranslatorUITests.swift; sourceTree = "<group>"; };
+		59FBF51E20368AF3004860FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59FBF4F620368AF3004860FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FBF50A20368AF3004860FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FBF51520368AF3004860FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59FBF4F020368AF3004860FB = {
+			isa = PBXGroup;
+			children = (
+				59FBF4FB20368AF3004860FB /* Assyrian English Translator */,
+				59FBF51020368AF3004860FB /* Assyrian English TranslatorTests */,
+				59FBF51B20368AF3004860FB /* Assyrian English TranslatorUITests */,
+				59FBF4FA20368AF3004860FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59FBF4FA20368AF3004860FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59FBF4F920368AF3004860FB /* Assyrian English Translator.app */,
+				59FBF50D20368AF3004860FB /* Assyrian English TranslatorTests.xctest */,
+				59FBF51820368AF3004860FB /* Assyrian English TranslatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59FBF4FB20368AF3004860FB /* Assyrian English Translator */ = {
+			isa = PBXGroup;
+			children = (
+				59FBF4FC20368AF3004860FB /* AppDelegate.swift */,
+				59FBF4FE20368AF3004860FB /* ViewController.swift */,
+				59FBF50020368AF3004860FB /* Main.storyboard */,
+				59FBF50320368AF3004860FB /* Assets.xcassets */,
+				59FBF50520368AF3004860FB /* LaunchScreen.storyboard */,
+				59FBF50820368AF3004860FB /* Info.plist */,
+			);
+			path = "Assyrian English Translator";
+			sourceTree = "<group>";
+		};
+		59FBF51020368AF3004860FB /* Assyrian English TranslatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				59FBF51120368AF3004860FB /* Assyrian_English_TranslatorTests.swift */,
+				59FBF51320368AF3004860FB /* Info.plist */,
+			);
+			path = "Assyrian English TranslatorTests";
+			sourceTree = "<group>";
+		};
+		59FBF51B20368AF3004860FB /* Assyrian English TranslatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59FBF51C20368AF3004860FB /* Assyrian_English_TranslatorUITests.swift */,
+				59FBF51E20368AF3004860FB /* Info.plist */,
+			);
+			path = "Assyrian English TranslatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59FBF4F820368AF3004860FB /* Assyrian English Translator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FBF52120368AF3004860FB /* Build configuration list for PBXNativeTarget "Assyrian English Translator" */;
+			buildPhases = (
+				59FBF4F520368AF3004860FB /* Sources */,
+				59FBF4F620368AF3004860FB /* Frameworks */,
+				59FBF4F720368AF3004860FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Assyrian English Translator";
+			productName = "Assyrian English Translator";
+			productReference = 59FBF4F920368AF3004860FB /* Assyrian English Translator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59FBF50C20368AF3004860FB /* Assyrian English TranslatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FBF52420368AF3004860FB /* Build configuration list for PBXNativeTarget "Assyrian English TranslatorTests" */;
+			buildPhases = (
+				59FBF50920368AF3004860FB /* Sources */,
+				59FBF50A20368AF3004860FB /* Frameworks */,
+				59FBF50B20368AF3004860FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59FBF50F20368AF3004860FB /* PBXTargetDependency */,
+			);
+			name = "Assyrian English TranslatorTests";
+			productName = "Assyrian English TranslatorTests";
+			productReference = 59FBF50D20368AF3004860FB /* Assyrian English TranslatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59FBF51720368AF3004860FB /* Assyrian English TranslatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59FBF52720368AF3004860FB /* Build configuration list for PBXNativeTarget "Assyrian English TranslatorUITests" */;
+			buildPhases = (
+				59FBF51420368AF3004860FB /* Sources */,
+				59FBF51520368AF3004860FB /* Frameworks */,
+				59FBF51620368AF3004860FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59FBF51A20368AF3004860FB /* PBXTargetDependency */,
+			);
+			name = "Assyrian English TranslatorUITests";
+			productName = "Assyrian English TranslatorUITests";
+			productReference = 59FBF51820368AF3004860FB /* Assyrian English TranslatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59FBF4F120368AF3004860FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = RashoWare;
+				TargetAttributes = {
+					59FBF4F820368AF3004860FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					59FBF50C20368AF3004860FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59FBF4F820368AF3004860FB;
+					};
+					59FBF51720368AF3004860FB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59FBF4F820368AF3004860FB;
+					};
+				};
+			};
+			buildConfigurationList = 59FBF4F420368AF3004860FB /* Build configuration list for PBXProject "Assyrian English Translator" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59FBF4F020368AF3004860FB;
+			productRefGroup = 59FBF4FA20368AF3004860FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59FBF4F820368AF3004860FB /* Assyrian English Translator */,
+				59FBF50C20368AF3004860FB /* Assyrian English TranslatorTests */,
+				59FBF51720368AF3004860FB /* Assyrian English TranslatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59FBF4F720368AF3004860FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FBF50720368AF3004860FB /* LaunchScreen.storyboard in Resources */,
+				59FBF50420368AF3004860FB /* Assets.xcassets in Resources */,
+				59FBF50220368AF3004860FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FBF50B20368AF3004860FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FBF51620368AF3004860FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59FBF4F520368AF3004860FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FBF4FF20368AF3004860FB /* ViewController.swift in Sources */,
+				59FBF4FD20368AF3004860FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FBF50920368AF3004860FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FBF51220368AF3004860FB /* Assyrian_English_TranslatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59FBF51420368AF3004860FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59FBF51D20368AF3004860FB /* Assyrian_English_TranslatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59FBF50F20368AF3004860FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59FBF4F820368AF3004860FB /* Assyrian English Translator */;
+			targetProxy = 59FBF50E20368AF3004860FB /* PBXContainerItemProxy */;
+		};
+		59FBF51A20368AF3004860FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59FBF4F820368AF3004860FB /* Assyrian English Translator */;
+			targetProxy = 59FBF51920368AF3004860FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59FBF50020368AF3004860FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59FBF50120368AF3004860FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59FBF50520368AF3004860FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59FBF50620368AF3004860FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59FBF51F20368AF3004860FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59FBF52020368AF3004860FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59FBF52220368AF3004860FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assyrian English Translator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RashoWare.Assyrian-English-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59FBF52320368AF3004860FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assyrian English Translator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RashoWare.Assyrian-English-Translator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		59FBF52520368AF3004860FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assyrian English TranslatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RashoWare.Assyrian-English-TranslatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assyrian English Translator.app/Assyrian English Translator";
+			};
+			name = Debug;
+		};
+		59FBF52620368AF3004860FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assyrian English TranslatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RashoWare.Assyrian-English-TranslatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assyrian English Translator.app/Assyrian English Translator";
+			};
+			name = Release;
+		};
+		59FBF52820368AF3004860FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assyrian English TranslatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RashoWare.Assyrian-English-TranslatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assyrian English Translator";
+			};
+			name = Debug;
+		};
+		59FBF52920368AF3004860FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assyrian English TranslatorUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RashoWare.Assyrian-English-TranslatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assyrian English Translator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59FBF4F420368AF3004860FB /* Build configuration list for PBXProject "Assyrian English Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FBF51F20368AF3004860FB /* Debug */,
+				59FBF52020368AF3004860FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FBF52120368AF3004860FB /* Build configuration list for PBXNativeTarget "Assyrian English Translator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FBF52220368AF3004860FB /* Debug */,
+				59FBF52320368AF3004860FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FBF52420368AF3004860FB /* Build configuration list for PBXNativeTarget "Assyrian English TranslatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FBF52520368AF3004860FB /* Debug */,
+				59FBF52620368AF3004860FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59FBF52720368AF3004860FB /* Build configuration list for PBXNativeTarget "Assyrian English TranslatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59FBF52820368AF3004860FB /* Debug */,
+				59FBF52920368AF3004860FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59FBF4F120368AF3004860FB /* Project object */;
+}
